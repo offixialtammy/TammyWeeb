@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-inline-end: 150px;
+    background-image: url(McDonalds.jpeg);
+    
+}
+.first{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    
+}.end{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-top: -20px;
+    font-size: large;
+    
+}.search{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 90px;
+    padding-left: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}.tam{
+    color: red;
+    font-family: cursive;
+}a{
+    text-decoration: none;
+}.wrap{
+    width: 0px;
+    height: 0px;
+}.content{
+    width: 70px;
+    height: 0px;
+    overflow: hidden;
+    transition: 1s all ease-in-out;
+}.wrap:hover .content{
+    height: 200px;
+}.wrap1{
+    width: 0px;
+    height: 0px;
+}.content1{
+    width: 70px;
+    height: 0px;
+    overflow: hidden;
+    transition: 1s all ease-in-out;
+}.wrap1:hover .content1{
+    height: 200px;
+    width: 150px;
+}.wrap2{
+    width: 0px;
+    height: 0px;
+}.content2{
+    width: 200px;
+    height: 0px;
+    overflow: hidden;
+    transition: 1s all ease-in-out;
+}.wrap2:hover .content2{
+    height: 200px;
+    margin-left: -60px;
+}.banner{
+    background-image: url(no\ longer\ allowed\ in\ this\ world.jpg);
+    width: 100%;
+    background-size: cover ;
+    height: 70vh;
+    background-repeat: no-repeat;
+}.container{
+    font-size: x-large;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50px;
+}.sea, .sub{
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 360px;
+}.container h3{
+    margin-left: 80px;
+}.sea{
+    background: transparent;
+    border: solid;
+    font-family: fantasy;
+    font-size: large;
+    margin-right: 10px;
+}.sea:hover{
+    transition: all ease-in-out;
+    background-color: aliceblue;
+}button:hover{
+    cursor: pointer;
+}.sub{
+    font-size: large;
+    background-color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}.tex{
+position: absolute;
+margin-top: 350px;
+margin-left: 25px;
+animation: move  linear infinite;
+}.xxx{
+    text-align: center;font-size: 12px;
+    width: 200px;float: left;margin-left: 8px;
+    aspect-ratio: 4/4;
+    white-space: wrap;transition: 1s all ease-in-out;
+    border-radius: 10px;
+}.xxx img{
+    width: 100%;height: 90%;background-size: cover;transition: 1s all ease-in-out;border-radius: 10px;cu
+}.xxx:hover{
+   box-shadow: 4px 4px 6px black, -4px -4px 5px black;width: 200px;cursor: pointer;
+}.xxx img:hover{
+}.cover{
+    margin-top: -20px;
+}.sec{
+    text-align: center;
+    line-height: 30px;
+
+}.seab{
+    border: none;
+    background: none;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 5px;
+    font-size: large;
+    
+}.seac{
+    width: 400px;
+    height: 34px;
+    margin-left: 116px;
+    padding-right: 35px;
+    border: solid;
+}.w{
+    position: absolute;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif    ;
+    font-weight: bold;
+    margin-left: 55px;
+    padding: 5px;
+    width: 50px;
+    margin-top: ;
+    border: solid;
+}.secc{
+    margin-top: 20px;
+    margin-left: 50px;
+}.local{
+    width: 400px;
+    height: 34px;
+    
+    padding-right: 30px;
+    border: solid;
+    
+}.l{
+    position: absolute;
+    margin-left: 806px;
+    margin-top: -34px;
+}.loc{
+    position: absolute;
+    margin-left: -80px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif    ;
+    font-weight: bold;    height: 21px;
+    border: solid;
+    padding: 5px;
+
+}.lb{
+    position: absolute;
+    margin-left: -35px;
+    font-size: large;
+    background: none;
+    border: none;
+    margin-top: 7px;
+}.nex{
+    width: 240px;
+    display: inline-block;
+    aspect-ratio: 3/4;
+    margin-top: 50px;
+    margin-left: 90px;
+    border: none;
+}.nex img{
+    width: 100%;height: 80%;background-size:cover;
+}.nex img:hover{
+    transition: 1s all ease-out;
+    box-shadow: 1px 1px 1px black, -1px -1px 1px black;width: 250px;cursor: pointer;
+    cursor: pointer;
+    border: none;
+}.nex:hover{
+    box-shadow: 1px 1px 1px gray, -1px -1px 1px gray ;
+    width: 251px;
+    transition: 0.9s all ease-out;
+    
+}footer{
+    font-size: large;
+    background-size: contain;
+    line-height: 20px;
+    background-color: black;
+    color: white;
+    height: 25vh;
+    padding: 3px;
+    margin-top: 20px;
+}.help{
+    margin-top: -175px;
+    margin-left: 750px;
+}.links{
+    
+    margin-top: -165px;
+    margin-left:1200px ;
+}@media only screen and (max-width: 600px){
+    *{
+        margin: 0;
+        padding: 0 auto;
+    }
+    body{
+        width: 100%;
+    }
+}
